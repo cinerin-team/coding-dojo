@@ -1,10 +1,10 @@
 alma = "egész osztás, mint C-ben"
-szotart = {}
+szotar = {}
 for a in alma:
-    if a in szotart.keys():
-        szotart[a] += 1
+    if a in szotar.keys():
+        szotar[a] += 1
     else:
-        szotart[a] = 1
+        szotar[a] = 1
 
-print(sorted(szotart.items()))
+print(sorted(szotar.items()))
 
