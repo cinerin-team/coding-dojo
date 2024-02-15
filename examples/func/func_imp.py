@@ -1,4 +1,4 @@
-from examples.func import ex_func
+from examples.func.func import ex_func
 
 if __name__ == "__main__":
     a = 4

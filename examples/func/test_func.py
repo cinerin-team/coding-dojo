@@ -1,6 +1,6 @@
 from unittest import TestCase
 
-from examples.func import ex_func
+from examples.func.func import ex_func
 
 
 class Test(TestCase):
