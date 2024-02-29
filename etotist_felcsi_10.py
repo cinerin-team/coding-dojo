@@ -7,7 +7,7 @@ try:
     if "." in A:
         raise Exception("Te majom, mondom egész szám kell!")
     szam1 = int(A)
-    if szam1 < 0:
+    if szam1 <= 0:
         raise Exception("Te majom, pozitív egész szám kell te gyökér!")
 except ValueError:
     raise Exception("Ez nem szám te kretén!")
