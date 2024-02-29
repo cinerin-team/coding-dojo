@@ -4,10 +4,10 @@
 A = input("Kérem az A számot, köszönöm: ")
 
 try:
+    if "." in A:
+        raise Exception("Te majom, mondom egész szám kell!")
     szam1 = int(A)
-    if szam1 > 0:
-        pass
-    else:
+    if szam1 < 0:
         raise Exception("Te majom, pozitív egész szám kell te gyökér!")
 except ValueError:
     raise Exception("Ez nem szám te kretén!")
