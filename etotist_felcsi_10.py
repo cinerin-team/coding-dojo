@@ -4,7 +4,7 @@
 A = input("Kérem az A számot, köszönöm: ")
 
 try:
-    if "." in A:
+    if ("." in A) or ("," in A):
         raise Exception("Te majom, mondom egész szám kell!")
     szam1 = int(A)
     if szam1 <= 0:
@@ -15,7 +15,10 @@ except ValueError:
 # result = 0
 # for i in range(szam1+1):
 result = szam1
-for i in range(szam1):
+# for i in range(szam1):
+#    result += i
+
+for i in reversed(range(szam1)):
     result += i
 
-print("Eredmény: " + str(result))
+print("Az eredmény: " + str(result))
