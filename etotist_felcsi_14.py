@@ -14,6 +14,6 @@ if __name__ == '__main__':
     ask1 = input("Kérem szépen (de nagyon szépen) az első számot: ")
     ask2 = input("Kérem szépen (de k*rva szépen) a második számot: ")
     try:
-        print(print_out_stars(int(ask1), int (ask2)))
+        print(print_out_stars(int(ask1), int(ask2)))
     except ValueError:
         raise Exception("\nNem tudod hogy mi az a szám, te ******?")
