@@ -80,3 +80,4 @@ if __name__ == '__main__':
     #
     # >>> match.groups()
     # ('801', '35')
+    # with 's' is a tuple, without is a string
