@@ -28,7 +28,6 @@ if __name__ == '__main__':
     # Output: ['Twelve:', ' Eighty nine:89 Nine:9.']
 
     # Program to remove all whitespaces
-    import re
 
     # multiline string
     string = 'abc 12 de 23 \n f45 6'
