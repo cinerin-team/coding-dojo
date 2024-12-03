@@ -43,6 +43,16 @@ if __name__ == '__main__':
 
     # Output: abc12de23f456
 
+    #greedy!
+    string = '(alma)korte(alma)' # try to remove only (alma)
+    pattern = r'\(.*\)'
+    replace = ''
+    new_string = re.sub(pattern, replace, string)
+    print("bad, as removes the whole: " + new_string)
+    pattern = r'\(.*?\)' # not greedy .*?
+    new_string = re.sub(pattern, replace, string)
+    print("good: " + new_string)
+
     string = "Python is fun"
 
     # check if 'Python' is at the beginning
